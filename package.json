@@ -19,7 +19,8 @@
     "size": "size-limit",
     "analyze": "size-limit --why",
     "storybook": "start-storybook -p 6006",
-    "build-storybook": "build-storybook"
+    "build-storybook": "build-storybook",
+    "chromatic": "npx chromatic --project-token=44c2a6d25187"
   },
   "peerDependencies": {
     "react": ">=16"
@@ -36,7 +37,9 @@
     "trailingComma": "es5"
   },
   "name": "shared-storybook",
-  "author": "shell",
+  "author": {
+    "name": "shell"
+  },
   "module": "dist/shared-storybook.esm.js",
   "size-limit": [
     {
@@ -67,5 +70,7 @@
     "tsdx": "^0.14.1",
     "tslib": "^2.4.0",
     "typescript": "^4.7.4"
-  }
+  },
+  "readme": "ERROR: No README data found!",
+  "_id": "shared-storybook@0.1.0"
 }
