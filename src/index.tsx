@@ -1,4 +1,4 @@
-// import './assets/styles/style.css'
+import './assets/styles/style.css'
 export * from "./Thing";
 export * from "./components/atoms/button/Button";
 export * from "./components/atoms/checkbox/Checkbox";
