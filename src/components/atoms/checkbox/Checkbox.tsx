@@ -14,7 +14,7 @@ export const Checkbox = () => {
         {true && (
           <span className="c-control__label">
             <div className="c-control__label-has-profiles">
-              <span>Hello</span>
+              <span>Hello 12</span>
             </div>
           </span>
         )}
