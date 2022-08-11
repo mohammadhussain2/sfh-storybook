@@ -5,15 +5,6 @@ export * from "./components/atoms/checkbox/Checkbox";
 export * from "./components/atoms/icons/Icon"
 
 export * from "./components/molecules/tabs/Tabs"
-// export * from "./ButtonGroup";
-// export * from "./ColorBox";
-// export * from "./Paginate";
-// export * from "./RentalCard";
-// export * from "./Select";
-// export * from "./TextInput";
-// export * from "./Checkbox";
-// export * from "./Typography";
-
 // export * from "./nav/SideNav";
 // export * from "./nav/MobileNavbar";
 
