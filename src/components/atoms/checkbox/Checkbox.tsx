@@ -1,6 +1,6 @@
 import React from 'react';
 // import '../../../assets/styles/style.css'
-export const Checkbox = () => {
+export  const Checkbox = () => {
   return (
     <>
       <label className="c-control c-control--checkbox">
