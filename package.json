@@ -13,7 +13,9 @@
   "scripts": {
     "start": "tsdx watch",
     "build": "tsdx build",
-    "test": "tsdx test --passWithNoTests",
+    "test": "tsdx test",
+    "test:watch": "tsdx test --watch",
+    "test:coverage": "tsdx test --coverage",
     "lint": "tsdx lint",
     "prepare": "tsdx build",
     "size": "size-limit",
@@ -60,6 +62,10 @@
     "@storybook/addons": "^6.5.10",
     "@storybook/preset-scss": "^1.0.3",
     "@storybook/react": "^6.5.10",
+    "@testing-library/jest-dom": "^5.16.5",
+    "@testing-library/react": "^13.3.0",
+    "@testing-library/user-event": "^14.4.3",
+    "@types/jest": "^28.1.6",
     "@types/react": "^18.0.15",
     "@types/react-dom": "^18.0.6",
     "autoprefixer": "^10.4.8",
@@ -83,5 +89,8 @@
   "_id": "shared-storybook@0.1.0",
   "dependencies": {
     "@rollup/plugin-replace": "^4.0.0"
+  },
+  "jest": {
+    "verbose": true
   }
 }
