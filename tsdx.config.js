@@ -4,7 +4,7 @@ module.exports = {
     rollup(config, options) {
         config.plugins.push(
             postcss({
-                inject: false, //  true
+                inject: true, //  true
                 extract: !!options.writeMeta,
             }),
         );
